@@ -1,0 +1,12 @@
+answer = input('Хто написав Пригоди Тома Сойєра?')
+answer = answer.lower()
+
+#допиши програму
+attempts = 1
+
+while answer is not 'марк твен':
+    answer = input('Хто написав Пригоди Тома Сойєра?')
+    answer = answer.lower()
+    attempts += 1
+
+print('Відповідь зарахована з', attempts, 'спроби')
